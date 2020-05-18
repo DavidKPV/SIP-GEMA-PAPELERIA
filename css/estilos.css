@@ -1,0 +1,221 @@
+#boton{
+	background: #98e591;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	border: 2px solid  #98e591;
+	padding: 5px 10px;
+	outline: none;
+	color: black;
+	border-radius: 5px;
+	cursor:pointer;
+	box-shadow: 2px 4px 11px -1px rgba(48,43,48,1);
+}
+
+#caja_venta{
+	border: 2px solid #539a58;
+}
+
+#caja_total{
+	border: 2px solid #53ce40;
+}
+
+#select{
+	padding: 5px;
+	border-radius: 5px;
+	margin: 0px 10px 0px 0px;
+	border: 1px solid #53ce40;
+	color:green;
+}
+
+#select:hover{
+	cursor:pointer;
+}
+
+#boton:hover{
+	background: #539a58;
+	color: white;
+	border: 2px solid #539a58;
+}
+
+#caja_derecha{
+	background: #94d06e;
+}
+
+#cerrar{
+	background: #53ce40;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	border: 2px solid  #53ce40;
+	padding: 5px 20px;
+	outline: none;
+	color: black;
+	border-radius: 5px;
+	cursor:pointer;
+	box-shadow: 2px 4px 11px -1px rgba(48,43,48,1);
+}
+
+#cerrar:hover{
+	background: #d6f005;
+	border: 2px solid #d6f005;
+}
+
+#cancelar{
+	background: #94d06e;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	border: 2px solid #94d06e;
+	outline: none;
+	color: black;
+	border-radius: 5px;
+	cursor:pointer;
+}
+
+#cancelar:hover{
+	background: #f66c4a;
+	border: 2px solid #f66c4a;
+}
+
+header{
+	background: #98e591;
+	color:#000;
+
+}
+
+#ventas{
+	border: 2px solid blue;
+}
+
+#borde-der{
+	border-right: 2px solid  #53ce40;
+	border-bottom: 2px solid  #53ce40;
+}
+
+#precio_final{
+	color:blue;
+}
+
+#mejor{
+	color:green;
+}
+
+#peor{
+	color:red;
+}
+
+#total_cantidad{
+	border: 2px solid orange;
+}
+
+#wordinicio{
+	color:black;
+}
+
+#wordalert{
+	color:red;
+}
+
+footer{
+	background: #94d06e;
+	color: #000;
+}
+
+/*ESTILOS PARA EL MENÚ */
+
+ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+#nav-principal{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/*			
+.nav > li {
+	float:none;
+}
+*/
+			
+.nav li a {
+	background-color:#98e591;
+	color:#000;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+	border-radius:5px;
+	box-shadow: 2px 4px 11px -1px rgba(48,43,48,1);
+}
+
+.nav li a:hover {
+	background-color:#539a58;;
+	color: white;
+}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+		
+.nav li:hover > ul {
+	display:block;
+}
+
+/* CAJA LOGIN */
+
+.box button[type = "submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid  #53ce40;
+	padding: 5px 30px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s; 
+	cursor:pointer;
+}
+
+.box button[type = "submit"]:hover{
+	background: #53ce40;
+}
+
+.box input[type = "text"], .box input[type = "password"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #53ce40;
+	padding: 5px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s; 
+}
+
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+	width: 260px;
+	border-color: #27ae60;
+}
+
+
+
+/*BUSCADOR*/
+
+
+
+
+
+
+
+
